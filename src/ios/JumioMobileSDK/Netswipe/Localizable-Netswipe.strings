@@ -1,0 +1,52 @@
+/*
+  Localizable-Netswipe.strings
+  NetswipeMobileSDK
+
+  Created by Philipp Rakuschan on 17/07/2013.
+  Copyright (c) 2013 Jumio Inc. All rights reserved.
+*/
+
+"netswipe-mobile-sdk.scan-view.navigation-bar.title" = "Scan card";
+
+"netswipe-mobile-sdk.info-view.label.extraction-in-progress.text" = "Extraction in progress ...";
+
+"netswipe-mobile-sdk.label.error-background-execution-not-supported.text" = "Background execution not supported";
+"netswipe-mobile-sdk.label.error-authentication-failed.text" = "Authentication failed";
+"netswipe-mobile-sdk.label.error-key-invalid.text" = "Certificate not valid anymore. Please contact the app vendor";
+"netswipe-mobile-sdk.label.error-during-sdk-startup.text" = "Scanning not available at this time, please contact the app vendor";
+"netswipe-mobile-sdk.label.error-cancelled-by-user.text" = "Cancelled by end-user";
+"netswipe-mobile-sdk.label.error-camera-access-disabled.text" = "Camera access disabled";
+"netswipe-mobile-sdk.label.error-card-expired.text" = "Your card is expired";
+"netswipe-mobile-sdk.label.error-unsupported-card-type.text" = "Your card type is not accepted";
+
+"netswipe-mobile-sdk.button.try-again.title" = "Try again";
+"netswipe-mobile-sdk.button.cancel.title" = "Cancel";
+"netswipe-mobile-sdk.button.ok.title" = "Confirm";
+"netswipe-mobile-sdk.alert-view.error.header.title" = "Error";
+"netswipe-mobile-sdk.alert.camera-access-disabled.title" = "Camera access disabled";
+
+// placeholder gets replaced by the app name
+"netswipe-mobile-sdk.alert.camera-access-disabled.text" = "%@ needs access to your camera. Please check your privacy settings.";
+
+"netswipe-mobile-sdk.card-frame.label.present-your-card-number.text" = "PRESENT YOUR CARD NUMBER";
+"netswipe-mobile-sdk.card-frame.label.creditcard-number.text" = "1234 5678 9123 4567";
+"netswipe-mobile-sdk.card-frame.label.valid-thru.text" = "VALID\nTHRU";
+"netswipe-mobile-sdk.card-frame.label.MM-YY.text" = "MM/YY";
+"netswipe-mobile-sdk.card-frame.label.cardHolder-name.text" = "Danielle Jumio";
+
+"netswipe-mobile-sdk.manual-input.additional-info.navigation-bar.title" = "Additional info";
+"netswipe-mobile-sdk.manual-input.manual-entry.navigation-bar.title" = "Manual entry";
+"netswipe-mobile-sdk.manual-input.navigation-bar.done-button.title" = "Done";
+"netswipe-mobile-sdk.manual-input.navigation-bar.back-button.title" = "Back";
+"netswipe-mobile-sdk.manual-input.label.card-number.title" = "Credit card number";
+"netswipe-mobile-sdk.manual-input.label.expiry-date.title" = "Valid through";
+"netswipe-mobile-sdk.manual-input.label.cvv-cvc.title" = "CVV/CVC";
+"netswipe-mobile-sdk.manual-input.label.cvv.title" = "CVV";
+"netswipe-mobile-sdk.manual-input.label.cvc.title" = "CVC";
+"netswipe-mobile-sdk.manual-input.label.cid.title" = "CID";
+"netswipe-mobile-sdk.manual-input.label.cav.title" = "CAV";
+"netswipe-mobile-sdk.manual-input.textfield.cvv-cvc.placeholder" = "Your code";
+
+"netswipe-mobile-sdk.manual-input.label.card-holder-name.title" = "Card holder";
+"netswipe-mobile-sdk.manual-input.label.card-type-not-accepted.title" = "Your card type is not accepted";
+"netswipe-mobile-sdk.manual-input.label.card-number-invalid.title" = "Invalid card number";

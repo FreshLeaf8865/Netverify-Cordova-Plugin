@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="com.kari.cordova.jumio"
+        version="1.0.0">
+    <name>JumioMobile</name>
+    <description>JumioSDK Wrapper</description>
+    <author>Kari Xacker</author>
+    
+    <engines>
+        <engine name="cordova" version=">=3.6.0" />
+    </engines>
+
+    <keywords>cordova,netverify,jumio</keywords>
+
+    <js-module src="www/cdv-plugin-jumio-sdk.js" name="JumioMobile">
+        <clobbers target="JumioMobile" />
+    </js-module>
+
+    <!-- ios -->
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="JumioMobile">
+                <param name="ios-package" value="JumioMobileCordovaPlugin" onload="true" />
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/JumioMobileCordovaPlugin.h" />
+        <source-file src="src/ios/JumioMobileCordovaPlugin.m" />
+
+        <resource-file src="src/ios/JumioMobileSDK/Netswipe/NetswipeResources.bundle" />
+        <resource-file src="src/ios/JumioMobileSDK/Netswipe/Localizable-Netswipe.strings" />
+        <resource-file src="src/ios/JumioMobileSDK/Netswipe/Netswipe.xcassets" />
+        <resource-file src="src/ios/JumioMobileSDK/Netverify/NetverifyResources.bundle" />
+        <resource-file src="src/ios/JumioMobileSDK/Netverify/Localizable-Netverify.strings" />
+        <resource-file src="src/ios/JumioMobileSDK/Netverify/Netverify.xcassets" />
+
+        <framework src="Accelerate.framework" />
+        <framework src="AudioToolbox.framework" />
+        <framework src="AVFoundation.framework" />
+        <framework src="CFNetwork.framework" />
+        <framework src="CoreGraphics.framework" />
+        <framework src="CoreImage.framework"/>
+        <framework src="CoreMedia.framework"/>
+        <framework src="CoreText.framework"/>
+        <framework src="CoreVideo.framework"/>
+        <framework src="Foundation.framework"/>
+        <framework src="MobileCoreServices.framework" />
+        <framework src="Security.framework" />
+        <framework src="SystemConfiguration.framework" />
+        <framework src="QuartzCore.framework"/>
+        <framework src="UIKit.framework"/>
+
+        <framework src="src/ios/JumioMobileSDK/JumioCore.framework" custom="true"/>
+        <framework src="src/ios/JumioMobileSDK/Netswipe.framework" custom="true"/>
+        <framework src="src/ios/JumioMobileSDK/Netverify.framework" custom="true"/>
+        <framework src="src/ios/JumioMobileSDK/JumioEncryption.framework" custom="true"/>
+        <framework src="src/ios/JumioMobileSDK/MicroBlink.framework" custom="true"/>
+
+        <framework src="libc++.dylib" />
+        <framework src="libz.dylib" />
+        <framework src="libiconv.dylib" />
+    </platform>
+
+</plugin>

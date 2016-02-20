@@ -1,0 +1,6 @@
+framework module JumioEncryption {
+  umbrella header "JumioEncryption.h"
+
+  export *
+  module * { export * }
+}

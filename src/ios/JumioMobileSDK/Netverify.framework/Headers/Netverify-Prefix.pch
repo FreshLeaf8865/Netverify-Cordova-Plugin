@@ -1,0 +1,23 @@
+//
+//  Netverify-Prefix.pch
+//  JumioMobileSDK
+//
+//  Created by Cosmin-Valentin Popescu on 06/03/15.
+//  Copyright (c) 2015 Jumio Inc. All rights reserved.
+//
+
+#ifdef __OBJC__
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <JumioCore/JMResourceLoader.h>
+#import <JumioCore/JMLogging.h>
+#import <JumioCore/NSData+Base64.h>
+#import <JumioCore/JMSDKStyle.h>
+#import "NVDefaultLocalizableStrings.h"
+#import "NVUtilities.h"
+#import <JumioCore/JMUtilities.h>
+#import "NVSDK.h"
+
+#endif //__OBJC__
+
