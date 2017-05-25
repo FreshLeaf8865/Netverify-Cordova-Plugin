@@ -1,8 +1,8 @@
-#Cordova plugin for JumioSDK
+# Cordova plugin for JumioSDK
 
-##Usage 
+## Usage 
 
-###Netverify
+### Netverify
 ```javascript
 JumioMobile.configureNetverifyControllerAppearence({navigationBarBarTintColor: "#ff0000"});
 var credentials = new JumioMobile.JumioCredentials("API_KEY", "APP_SECRET");
@@ -19,7 +19,7 @@ JumioMobile.presentNetverifyController(credentials, configuration, function(resu
 })
 ```
 
-###Netswipe
+### Netswipe
 ```javascript
 JumioMobile.configureNetswipeControllerAppearence({navigationBarBarTintColor: "#ff0000"});
 var merchantReportingCriteria = "akjd1231sdfasdfa";
